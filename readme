@@ -11,8 +11,8 @@ Este repositorio contiene el entorno y las herramientas necesarias para el talle
 Antes de comenzar, asegúrese de tener instalados los siguientes programas:
 
 - [Visual Studio Code (VSCode)](https://code.visualstudio.com/)
-- [Extensión Jupyter para VSCode]
-- [Extensión Python para VSCode]
+- Extensión Jupyter para VSCode
+- Extensión Python para VSCode
 - [Miniconda](https://docs.conda.io/en/latest/miniconda.html)
 
 ---
@@ -25,11 +25,15 @@ Antes de comenzar, asegúrese de tener instalados los siguientes programas:
 wget https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh
 ```
 
+---
+
 ## Dar permisos de ejecución
 
 ```bash
 chmod +x Miniconda3-latest-Linux-x86_64.sh
 ```
+
+---
 
 ## Ejecutar el instalador
 
@@ -44,6 +48,8 @@ Durante la instalación:
 - Seleccione `yes` cuando se pregunte si desea inicializar Conda automáticamente.
 
 Al finalizar, cierre y vuelva a abrir la terminal.
+
+---
 
 ## Verificar instalación
 
@@ -60,11 +66,15 @@ El taller utiliza dos ambientes independientes:
 - `eqt_gpu`: entorno para EQTransformer con soporte GPU.
 - `gamma_env`: entorno para GaMMA.
 
+---
+
 ## Crear ambiente para EQTransformer
 
 ```bash
 conda env create -f eqt_gpu.yml
 ```
+
+---
 
 ## Crear ambiente para GaMMA
 
